@@ -95,3 +95,22 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: rgb(138, 138, 138);
 }
+/*-------- css for small screen--------*/
+
+@media only screen and (max-width: 600px){
+    .headertext{
+        font-size: 25px;
+    }
+    .headertext h1{
+        font-size: 20px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .sub-title{
+        font-size: 30px;
+    }
+    .about-col-2 p{
+        font-size: 20px;
+    }
+}
