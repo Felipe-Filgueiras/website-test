@@ -97,7 +97,7 @@ nav ul li a:hover::after{
 }
 /*-------- css for small screen--------*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .headertext{
         font-size: 25px;
     }
